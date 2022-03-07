@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(202, 196, 196);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+}
+#form{
+    height: 580px;
+    width: 588px;
+    border-radius: 30px;
+    background-color: rgb(34, 90, 82);
+    margin-top: 28px;
+}
+#form table thead{
+    height: 200px;
+}
+#form table thead tr th input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 40px;
+    font-weight: 800;
+}
+#form table tbody{
+    background-color: white;
+}
+#form table tbody td input{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: rgb(228, 224, 224);
+    color: rgb(78, 74, 74);
+    outline: none;
+    border: none;
+    margin: auto;
+    font-size: 26px;
+    font-weight: 600;
+}
+#form table tbody td{
+    text-align: center;
+    padding: 20px;
+}
+.ferqli{
+    background-color: rgb(34, 90, 82) !important;
+    color: white !important;
+    font-weight: 500;
+    font-size: 26px;
+}
+#form table{
+    margin: auto;
+    
+}
+#input{
+    color: white;
+    float: right;
+    text-align: right;
+}
+#input::placeholder{
+    color: white;
+    margin-right: 30px;
+}
+table{
+    border-spacing: 0;
+}

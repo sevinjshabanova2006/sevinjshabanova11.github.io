@@ -1,0 +1,37 @@
+body{
+      background-color: #c2006b;
+}
+caption{
+    color: white;
+    text-align: center;
+    font-style: inherit;
+    font-size: 30px;
+    text-decoration: overline;
+    width: 100px;
+    margin: auto;
+}
+#header{
+     color: white;
+     text-align: center;
+     font-size: 24px;
+     background-color: rgb(6, 11, 39);
+    
+}
+#menu{
+   background-color:orange;
+   color: white;
+   text-align: center;
+   font-size: 24px;
+}
+#content{
+    background-color:rgb(223, 74, 48);
+   color: white;
+   text-align: center;
+   font-size: 24px;
+}
+#footer{
+    background-color:gray;
+   color: white;
+   text-align: center;
+   font-size: 24px;
+}

@@ -1,0 +1,72 @@
+#all{
+    height: 600px;
+    position: relative;
+    background-color: aquamarine;
+    overflow: hidden;
+}
+#l-curtain{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    right: 0;
+    z-index: 1;
+    background-image: url(./img/l_curtain.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation-name: l-curtain;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+}
+#r-curtain{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    left: 0;
+    z-index: 1;
+    background-image: url(./img/l_curtain.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation-name: r-curtain;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+}
+@keyframes l-curtain{
+    from{
+       right: 0;
+    }
+    to{
+        right: -50%;
+    }
+}
+@keyframes r-curtain{
+    from{
+        left: 0;
+    }
+    to{
+       left: -50%;
+    }
+}
+#yazi{
+    position: absolute;
+    top: -100px;
+    left: 30%;
+    height: 50px;
+    width: 400px;
+    z-index: 3;
+    font-size: 30px;
+    color: blue;
+    text-align: center;
+    animation-name: yazi;
+    animation-duration: 4s;
+    animation-delay: 4s;
+}
+@keyframes yazi{
+    from{
+        top: -100px;
+    }
+    to{
+        top: 50px;
+    }
+}

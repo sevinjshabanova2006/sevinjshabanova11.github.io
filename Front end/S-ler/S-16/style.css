@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+header{
+    background-image: url(./pexels-fauxels-3184454.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header ul{
+    display: flex;
+    list-style-type: none;
+    color: lightseagreen;
+    margin-left: 50%;
+    font-size: 20px;
+    font-weight: 500;
+}
+header ul li{
+    margin-left: 30px;
+}
+.div1{
+    display: flex;
+    padding-top: 30px;
+}
+.div1 h2{
+    margin-left: 40px;
+}
+.div2{
+    text-align: center;
+    margin-top: 10%;
+}
+.div2 h1{
+    margin-bottom: 30px;
+    color: lightseagreen;
+}
+.div2 p{
+    margin-bottom: 20px;
+}
+.div2 button{
+    margin-bottom: 30px;
+    border: 2px solid aqua;
+    background-color: aqua;
+    padding: 5px;
+}
+#section1 h1{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+#section1 p{
+    text-align: center;
+    margin-bottom: 30px;
+}

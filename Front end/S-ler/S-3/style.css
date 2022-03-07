@@ -1,0 +1,64 @@
+.menu1{
+    max-width: 500px;
+    margin: auto;
+}
+body{
+    background-color: #80ccd0;
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    margin-top: 100px;
+}
+#umumi{
+    width: 600px;
+    height: 500px;
+}
+#ust{
+    background-color: #fc653a;
+    border-radius: 3px;
+}
+#ust h3{
+     text-align: center;
+     color: white;
+     padding-top: 40px;
+     font-size: 20px;
+     font-style: initial;
+}
+#ust input{
+    width: 100%;
+    height: 70px;
+    background-color: #b93d25;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-style: initial;
+}
+#alt{
+    background-color: #b83c24;
+}
+#alt a{
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+    font-style: initial;
+}
+#alt button{
+     width: 250px;
+     height: 70px;
+     color: #b93c24;
+     background-color: white;
+     padding: 20px;
+     font-style: initial;
+     border: none;
+     font-size: 20px;
+}
+input::placeholder{
+    color: white;
+}
+#ust input:hover{
+    background-color: yellow;
+}
+
+

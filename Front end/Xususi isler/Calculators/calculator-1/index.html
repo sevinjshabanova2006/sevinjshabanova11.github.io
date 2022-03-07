@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <form id="form" name="Calculator">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="4">
+                        <input type="text" placeholder="0" name="cavab" id="input">
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="7"><input type="button" value="7" onclick="Func('7')" onmouseover="color('input7')"
+                            onmouseout="deyis('input7')" id="input7"></td>
+                    <td id="8"><input type="button" value="8" onclick="Func('8')" onmouseover="color('input8')"
+                            onmouseout="deyis('input8')" id="input8"></td>
+                    <td id="9"><input type="button" value="9" onclick="Func('9')" onmouseover="color('input9')"
+                            onmouseout="deyis('input9')" id="input9"></td>
+                    <td id="+"><input type="button" value="+" onclick="Func('+')" class="ferqli"></td>
+                </tr>
+                <tr>
+                    <td id="4"><input type="button" value="4" onclick="Func('4')" onmouseover="color('input4')"
+                            onmouseout="deyis('input4')" id="input4"></td>
+                    <td id="5"><input type="button" value="5" onclick="Func('5')" onmouseover="color('input5')"
+                            onmouseout="deyis('input5')" id="input5"></td>
+                    <td id="6"><input type="button" value="6" onclick="Func('6')" onmouseover="color('input6')"
+                            onmouseout="deyis('input6')" id="input6"></td>
+                    <td id="-"><input type="button" value="-" onclick="Func('-')" class="ferqli"></td>
+                </tr>
+                <tr>
+                    <td id="1"><input type="button" value="1" onclick="Func('1')" onmouseover="color('input1')"
+                            onmouseout="deyis('input1')" id="input1"></td>
+                    <td id="2"><input type="button" value="2" onclick="Func('2')" onmouseover="color('input2')"
+                            onmouseout="deyis('input2')" id="input2"></td>
+                    <td id="3"><input type="button" value="3" onclick="Func('3')" onmouseover="color('input3')"
+                            onmouseout="deyis('input3')" id="input3"></td>
+                    <td id="*"><input type="button" value="*" onclick="Func('*')" class="ferqli"></td>
+                </tr>
+                <tr>
+                    <td id="C"><input type="button" value="C" onclick="Clear()" id="inputC" class="ferqli"></td>
+                    <td id="0"><input type="button" value="0" onclick="Func('0')" onmouseover="color('input0')"
+                            onmouseout="deyis('input0')" id="input0"></td>
+                    <td id="/"><input type="button" value="/" onclick="Func('/')" class="ferqli"></td>
+                    <td id="="><input type="button" value="=" onclick="Beraber()" class="ferqli"></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    <script src="./main.js"></script>
+</body>
+
+</html>

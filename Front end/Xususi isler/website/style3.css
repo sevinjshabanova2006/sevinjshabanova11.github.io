@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(32, 32, 32) !important;
+    color: white;
+}
+#div1{
+    background-color: rgb(168, 124, 124);
+    height: 100px;
+    margin-top: -15.9%;
+    width: 1370px;
+    margin-left: -50px;
+}
+#div1 h1{
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 48px;
+    margin-left: 38%;
+}
+#div6{
+    border: 2px solid rgb(168, 124, 124);
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 10%;
+    padding: 4%;
+}
+#div7{
+    display: flex;
+}
+#div2 label , #div3 label , #div4 label{
+    color: rgb(168, 124, 124);
+    font-size: 20px;
+    font-weight: 600;
+}
+#div2 , #div3 , #div4{
+    display: block !important;
+}
+#div2{
+    margin-left: -20px !important;
+    margin-top: 5%;
+}
+input{
+    margin-left: 10px !important;
+    background-color: rgb(51, 51, 51);
+    border: 1px solid rgb(51, 51, 51);
+    width: 190px;
+    padding: 5px;
+    color: white;
+}
+#div3{
+    margin-top: 5% !important;
+    margin-left: 50px;
+}
+#div3 input{
+    color: white;
+}
+#div4{
+    margin-left: 8% !important;
+    margin-top: 40px !important;
+}
+.div2{
+    margin-top: 30%;
+}
+.div4{
+    margin-top: 35%;
+}
+.div6{
+    margin-top: 38% !important;
+}
+input::placeholder{
+    color: white;
+}
+#button1 , #button2{
+    border: 1px solid rgb(168, 124, 124);
+    background-color: rgb(168, 124, 124);
+    padding: 8px;
+    width: 20%;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+#button1:hover , #button2:hover{
+    background-color: transparent;
+}
+#button1{
+    margin-left: 28%;
+}
+#button2{
+    margin-left: 15px;
+}

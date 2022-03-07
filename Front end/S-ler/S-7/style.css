@@ -1,0 +1,100 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+header{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.835);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 3px solid rgb(248, 118, 31);
+}
+header ul{
+    display: flex;
+}
+header ul li{
+    padding: 0 10px 0 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+header ul li:hover{
+    background-color: rgb(248, 118, 31);
+    border-radius: 10px;
+}
+#sec{
+    background-image: url("./bg-image.jpg");
+    background-repeat: no-repeat;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+}
+.link button{
+    color: black;
+    background-color: rgb(248, 118, 31);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: none;
+    margin-right: 40px;
+    width: 100px;
+    height: 25px;
+}
+#div1{
+    padding-top: 250px;
+    color: white;
+    padding-left: 20px;
+}
+#div1 p{
+    margin-top: 20px;
+}
+#div1 span{
+    color: rgb(248, 118, 31);
+}
+#div2 button{
+    color: black;
+    background-color: rgb(248, 118, 31);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: none;
+    margin-right: 40px;
+    width: 100px;
+    height: 25px;
+    margin-left: 17px;
+    margin-top: 8px;
+}
+#div1 h1{
+    font-size: 50px;
+}
+.news{
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+.left-side{
+    background-color: orange;
+    color: white;
+    width: 30%;
+    height: 70px;
+}
+.right-side{
+    background-color: blue;
+    color: white;
+    width: 70%;
+    height: 70px;
+    float: right;
+    
+}
+.left-side h1{
+    padding-left: 95px;
+    padding-top: 15px;
+}
+.right-side marquee h2{
+    padding-top: 20px;
+}

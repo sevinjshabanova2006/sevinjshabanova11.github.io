@@ -1,0 +1,13 @@
+let reqem=5;
+console.log(reqem);
+let reqem2=Number(prompt("daxil et birinci reqemi"));
+console.log(reqem2);
+let reqem3=Number(prompt("daxil et ikinci reqemi"));
+let cem= reqem2+reqem3;
+let vurma=reqem2*reqem3;
+let cixma=reqem2-reqem3;
+let bolme=reqem2/reqem3;
+console.log("bolme="+bolme);
+console.log("cixma=" +cixma);
+console.log("hasil="+vurma);
+console.log("iki ededin cemi=" +cem);

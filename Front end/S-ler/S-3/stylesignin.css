@@ -1,0 +1,34 @@
+body{
+    background-color: #80ccd0;
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    margin-top: 100px;
+}
+#fieldest{
+  border-radius: 15px;
+  color:black;
+  background-color: #fc653a;
+  height: 400px;
+  font-size: 25px;
+}
+#table{
+    height: 40px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 20px;
+}
+#input{
+    color: rgb(0, 0, 0);
+    width: 200px;
+    text-align: center;
+    border: mediumblue solid 2px;
+    background-color: rgb(154, 173, 230);
+}
+img{
+    transition: transform 5s;
+}
+img:hover{
+    /* transform: matrix(2,0,0,2,150,0); */
+    transform: scale(2);
+}

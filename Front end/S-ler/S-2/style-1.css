@@ -1,0 +1,61 @@
+#menu1{
+    color: white;
+    text-align: center;
+    background-color: rgb(167, 12, 71);
+}
+#menu2{
+    color: white;
+    text-align: center;
+    background-color: rgba(192, 0, 134, 0.808);
+}
+#menu3{
+    color: white;
+    text-align: center;
+    background-color: rgb(253, 6, 142);
+    font-size: 24px;
+}
+#menu4{
+    color: white;
+    text-align: center;
+    background-color: gold;
+}
+#menu5{
+    color: white;
+    text-align: center;
+    background-color:darkgreen;
+}
+#menu6{
+    color: white;
+    text-align: center;
+    background-color: darkblue
+}
+#menu7{
+    color: white;
+    text-align: center;
+    background-color: rgb(124, 117, 10);
+}
+#menu8{
+    color: white;
+    text-align: center;
+    background-color: darkolivegreen
+}
+#menu9{
+    color: white;
+    text-align: center;
+    background-color: darkturquoise;
+}
+#menu10{
+    color: white;
+    text-align: center;
+    background-color: rgb(73, 158, 130);
+}
+#menu11{
+    color: white;
+    text-align: center;
+    background-color: darkviolet;
+}
+#menu12{
+    color: white;
+    text-align: center;
+    background-color: red
+}

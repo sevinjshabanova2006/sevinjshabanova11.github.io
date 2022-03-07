@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    outline: none;
+    outline-style: none;
+    text-decoration: none;
+    list-style-type: none;
+}
+header{
+    background-color: white;
+}
+#div1 a{
+    border: none;
+    list-style-type: none;
+    outline: none;
+    color: black;
+    text-decoration: none;
+}
+#div1 a:hover , #div1 button:hover{
+    background-color: #f1f1f1;
+    color: black;
+}
+#button{
+    background-color: #f44336;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    outline: 0;
+}
+#button a{
+    outline: none;
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+    margin-left: 3px;
+}
+#fa-bed{
+    color: white;
+    margin-right: 3px;
+}
+#buttons{
+    font-size: 22px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+#booknow{
+    float: right;
+    background-color: #f1f1f1;
+    font-size: 22px;
+    color: black;
+    font-weight: 300;
+    border: none;
+    padding: 8px 16px;
+}
+#section1{
+    background-image: url(./download.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px 600px;
+    display: flex;
+}
+#div2{
+    padding-top: 50px;
+    padding-left: 40px;
+    display: block;
+    padding-bottom: 10%;
+}
+#div4{
+    background-color: white;
+    width: 400px;
+    padding-top: 15px;
+    padding-left: 12px;
+    padding-bottom: 30px;
+}
+#div3{
+    background-color: #f44336;
+    color: white;
+    width: 200px;
+    width: 400px;
+    padding: 10px;
+    font-size: 30px;
+}
+#div4 input{
+    margin-left: 50px;
+    width: 200px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.div5 button{
+    color: white;
+    border: none;
+    background-color: #616161;
+    padding: 5px;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+.div5 button:hover{
+    background-color: #f1f1f1;
+    color: black;
+}
+#form{
+    height: 440px;
+    width: 400px;
+    border-radius: 30px;
+    background-color: #f44336;
+    margin-left: 450px;
+    margin-top: 60px;
+}
+#form table thead{
+    height: 90px;
+}
+#form table thead tr th input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 40px;
+    font-weight: 800;
+    width: 200px;
+}
+#form table tbody{
+    background-color: white;
+}
+#form table tbody td input{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: rgb(228, 224, 224);
+    color: rgb(78, 74, 74);
+    outline: none;
+    border: none;
+    margin: auto;
+    font-size: 26px;
+    font-weight: 600;
+}
+#form table tbody td{
+    text-align: center;
+    padding: 20px;
+}
+.ferqli{
+    background-color: red !important;
+    color: white !important;
+    font-weight: 500;
+    font-size: 26px;
+}
+#form table{
+    margin: auto;
+}
+#input{
+    color: rgb(78, 74, 74);
+    float: right;
+    text-align: right;
+}
+#input::placeholder{
+    color: rgb(78, 74, 74);
+    margin-right: 30px;
+}
+table{
+    border-spacing: 0;
+}
+#div6{
+    display: flex;
+}
+.div6{
+    display: block;
+    margin-left: 60px;
+}
+.div6 button{
+    color: white;
+    background-color: black;
+    padding: 7px;
+    border: none;
+    width: 80px;
+}
+.div6 button:hover{
+    background-color: #f1f1f1;
+    color: black;
+}
+.div6 input{
+    padding: 5px;
+}
+#section2 h2 , #section2 p{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+div.col-12 img{
+    width: 400px;
+    height: 282px;
+}
+#row{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+}
+.div12{
+    width: 400px;
+    background-color: #e0e0e0;
+    justify-content: left;
+}
+.div12 h3{
+    margin-left: 10px;
+    padding-top: 10px;
+}
+.div12 p{
+    margin-right: 20px;
+}
+.xidmetler{
+    margin-left: 40px;
+}
+#button3{
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    width: 360px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+#button3:hover{
+    background-color: #f1f1f1;
+    color: black;
+}
+#p1{
+    color: rgba(128, 128, 128, 0.911);
+}
+#col-12{
+    margin-right: 60px;
+    margin-left: -30px;
+}
+#div{
+    display: flex;
+}
+#div i{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#p3 ,#p4{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#section3{
+    margin-top: 40px;
+}
+#map{
+    width: 780px;
+    height: 464px;
+    margin-right: 20px;
+    margin-left: -10%;
+}
+#ayri{
+    margin-left: -9%;
+}
+.div13 i{
+    color: #f44336;
+}
+.div13{
+    display: flex;
+    margin-top: 50px;
+}
+.div13 p{
+    margin-left: 12%;
+    font-size: 18px;
+}
+.div14{
+    background-color: #f44336;
+    padding: 20px;
+    display: flex;
+    margin-top: 20px;
+}
+.div14 i{
+    color: white;
+    width: 20px;
+    padding: 5px;
+    height: 30px;
+    margin-top: 40px;
+}
+.div14 p{
+    color: white;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+#section4{
+    margin-top: 30px;
+}
+#section4 h3{
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#section4 h3 , #section4 p{
+    margin-left: 20px;
+}
+#img1{
+    width: 641px;
+    height: 486px;
+    margin-left: -90px;
+}
+#img2{
+    width: 312px;
+    height: 234px;
+    margin-bottom: 20px;
+}
+.img1{
+    color: white;
+    position: absolute;
+    padding: 5px 10px;
+    font-weight: 600;
+    margin-left: -50px;
+    margin-top: -50px;
+}
+.img2{
+    color: white;
+    position: absolute;
+    padding: 5px 10px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: -55px;
+}
+#row1{
+    flex-wrap: nowrap;
+}
+.img3{
+    margin-left: 60px;
+}
+.img4{
+    color: white;
+    position: absolute;
+    padding: 5px 10px;
+    font-weight: 600;
+    margin-left: 90px;
+    margin-top: -55px;
+}
+#section5{
+    background-color: black;
+    margin-top: 40px;
+    color: white;
+}
+#section5:hover{
+    background-color: #616161;
+}
+#section5 h3{
+    padding-top: 40px;
+    margin-left: 20px;
+}
+#section5 p{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#section5 div{
+    display: block;
+}
+#section5 label{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#section5 input{
+    width: 1300px;
+    margin-left: 20px;
+    padding: 5px;
+}
+#section5 button{
+    background-color: #f44336;
+    color: white;
+    width: 100px;
+    padding: 5px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+#section5 button:hover{
+    background-color: #f1f1f1;
+    color: black;
+}
+#section6{
+    margin-top: 50px;
+}
+#section6 h3 , #section6 p{
+    margin-left: 20px;
+}
+#section6 p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#section6 i{
+    color: #f44336;
+}
+#section6 input{
+    width: 1300px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#section6 button{
+    background-color: black;
+    border: none;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 7px;
+    color: white;
+    width: 150px;
+}
+#section6 button:hover{
+    background-color: #f1f1f1;
+    color: black;
+}
+footer{
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    height: 250px;
+    text-align: center;
+}
+footer h5{
+    padding-top: 50px;
+}
+footer div{
+    margin-top: 40px;
+}
+footer p{
+    margin-top: 30px;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: green;
+}

@@ -1,0 +1,195 @@
+#div1{
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.div1{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.div1 img{
+    width: 20px;
+    height: 20px;
+}
+.div2{
+    display: flex;
+    margin-left: 20%;
+    margin-top: 20px;
+}
+.div2 img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+#li{
+    display: flex;
+}
+#ul{
+    margin-left: 10%;
+}
+#ul svg{
+    margin-top: 8px;
+    margin-left: 20px;
+}
+#button{
+    margin-right: 50px;
+    background-color: #ffa900;
+    color: white;
+    border: 2px solid #ffa900;
+    padding: 10px;
+    border-radius: 30px;
+}
+#section1{
+    background-image: url(./summersurfgearguide2018.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px ;
+}
+.col-6 h2{
+    color: white;
+    margin-bottom: 20px;
+}
+.col-6 hr{
+    color: #ffa900;
+    opacity: 1;
+    width: 60px;
+    padding: 2px;
+    margin-top: 30px;
+}
+#p1{
+    color: white;
+    margin-top: 50px;
+}
+.div3{
+    margin-left: 50px;
+    padding-top: 30%;
+}
+#button2{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 30px;
+    padding: 11px 35px;
+    margin: 30px;
+}
+#div3{
+    display: flex;
+}
+.div5{
+    background-color: rgba(214, 207, 207, 0.746);
+    width: 600px;
+    height: 650px;
+    margin-top: 50px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.div5 h3{
+    padding-top: 30px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+.div6{
+    display: block;
+}
+.div6 p , .div7 p{
+    opacity: 0.7;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.select{
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 50px;
+    padding: 15px;
+    width: 80%;
+    margin-left: 50px;
+}
+.div8{
+    margin-top: 21px;
+    margin-left: 30px;
+}
+#label1{
+    margin-left: 6%;
+    opacity: 0.7;
+}
+#label2{
+    margin-left: 30%;
+    opacity: 0.7;
+}
+.input{
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 50px;
+    padding: 15px;
+    width: 30%;
+    margin-top: 5px;
+}
+.div10 select{
+    margin-left: 20px;
+}
+.div10 input{
+    margin-left: 80px
+}
+.div11{
+    margin-top: 21px;
+    margin-left: 30px;
+}
+#label3{
+    margin-left: 6%;
+    opacity: 0.7;
+}
+#label4{
+    margin-left: 38%;
+    opacity: 0.7;
+}
+#button5{
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 50px;
+    padding: 28px;
+    width: 30%;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+#button6{
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 50px;
+    padding: 28px;
+    width: 30%;
+    margin-top: 5px;
+    margin-left: 90px;
+}
+#but1{
+    background-color: #ffa701;
+    border: 2px solid #ffa701;
+    border-radius: 50px;
+    color: #fff;
+    padding: 15px;
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 80%;
+    font-size: 20px;
+}
+.div14{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.div15{
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+.div16{
+    border: 2px solid #ffa701;
+    background-color: #ffa701;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 25px;
+
+}

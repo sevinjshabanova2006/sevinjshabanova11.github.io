@@ -1,0 +1,502 @@
+header{
+    background-image: url(./header.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+}
+#div1{
+    padding-top: 15px;
+    display: flex;
+}
+.div1{
+    margin-left: 10px;
+    display: flex;
+}
+.div1 p:hover , .div2 p:hover{
+    color: rgb(168, 124, 124);
+}
+.div2{
+    margin-left: 15px;
+    display: flex;
+}
+#div2{
+    margin-right: 20px;
+    padding-top: 3px;
+    display: flex;
+    margin-left: auto;
+}
+#div2 i{
+    margin-right: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    color: white;
+}
+#div2 i:hover{
+    color: rgb(168, 124, 124);
+    border: 2px solid rgb(168, 124, 124);
+}
+#div3{
+    margin-top: 20px;
+}
+#div3 h3{
+    margin-left: 20px;
+    letter-spacing: 5px;
+}
+#div3 ul li a{
+    color: white;
+}
+#div3 ul li a:hover{
+    color: rgb(168, 124, 124);
+}
+#div3 ul{
+    margin-top: -35px;
+    margin-right: 20px;
+}
+#div3 ul i{
+    margin-top: 5px;
+    margin-right: 10px;
+}
+#div3 ul i:hover{
+    color: rgb(168, 124, 124);
+}
+#reservation{
+    border: 1px solid white;
+    margin-right: 10px;
+}
+#reservation:hover{
+    background-color: rgb(168, 124, 124);
+    border: rgb(168, 124, 124);
+    color: white !important;
+}
+#div4{
+    margin: auto;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+#div4 h1{
+    letter-spacing: 15px;
+    font-size: 4rem;
+    border: 1px solid white;
+    border-width: 10px;
+}
+#div4 h3{
+    margin-top: 10px;
+    opacity: 0.8;
+}
+#div5{
+    background-color: rgb(32, 32, 32);
+    padding-left: 15%;
+}
+#div5 input , #div5 select{
+    background-color: rgb(51, 51, 51);
+    border: 1px solid rgb(51, 51, 51);
+}
+#div5 input , #div5 select , #div5 button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 20%;
+    padding: 8px !important;
+    margin-left: 5px;
+    color: white;
+}
+#div5 input::placeholder{
+    color: white;
+}
+#div5 button{
+    background-color: rgb(168, 124, 124);
+    border: 1px solid rgb(168, 124, 124);
+}
+#div5 button:hover{
+    background-color: transparent;
+}
+#section1{
+    margin-left: 50px;
+    margin-top: 15%;
+}
+#section1 h2{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: rgb(136, 99, 99);
+    font-size: 48px;
+    margin-left: 20%;
+}
+#section1 h3{
+    font-size: 35px;
+    letter-spacing: 5px;
+    font-weight: 600;
+    margin-top: -20px;
+    margin-left: 15%;
+}
+#section1 h3 sup{
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+#p1{
+    margin-top: 40px;
+}
+.div6{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 10%;
+}
+.div6 hr{
+    width: 60px;
+    color: rgb(73, 73, 73);
+    opacity: 1;
+    margin-top: 10px;
+}
+#p2{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#hr1{
+    margin-right: 10px;
+}
+#hr2{
+    margin-left: 8px;
+}
+#img1{
+    width: 70%;
+    margin-top: 20px;
+    height: 65%;
+    object-fit: cover;
+}
+#img2{
+    width: 50%;
+    height: 60%;
+    object-fit: cover;
+    margin-left: 40%;
+    margin-top: -140%;
+}
+#img3{
+    width: 30%;
+    margin-left: 18%;
+    margin-top: -5px;
+}
+#background1{
+    background-image: url(./food/food8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -10px;
+    height: 500px;
+    opacity: 0.9;
+    color: white;
+}
+#background2{
+    background-image: url(./food/food6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    margin-left: 10px;
+    height: 500px;
+    color: white;
+}
+#background3{
+    background-image: url(./sushi.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: auto;
+    margin-right: -10px;
+    height: 500px;
+    opacity: 0.9;
+    color: white;
+}
+#background1 h3{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    opacity: 1;
+    font-size: 3rem;
+    margin-top: 20%;
+    margin-left: 30%;
+}
+#background1 hr{
+    opacity: 1;
+    width: 30%;
+    margin-left: 30%;
+    margin-top: -7%;
+}
+#background2 h3{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    opacity: 1;
+    font-size: 3rem;
+    margin-top: 20%;
+    margin-left: 30%;
+}
+#background2 hr{
+    opacity: 1;
+    width: 30%;
+    margin-left: 30%;
+    margin-top: -7%;
+}
+#background3 h3{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    opacity: 1;
+    font-size: 36px;
+    margin-top: 23%;
+    margin-left: 30%;
+}
+#background3 hr{
+    opacity: 1;
+    width: 38%;
+    margin-left: 30%;
+    margin-top: -6%;
+}
+#background1 h2{
+    font-size: 34px;
+    letter-spacing: 2px;
+    margin-left: 25%;
+    margin-top: -6px;
+}
+#background2 h2{
+    font-size: 34px;
+    letter-spacing: 2px;
+    margin-left: 30%;
+    margin-top: -6px;
+}
+#background3 h2{
+    font-size: 34px;
+    letter-spacing: 2px;
+    margin-left: 33%;
+    margin-top: -8px;
+}
+#background1 p, #background2 p ,#background3 p{
+    margin-top: 15%;
+    text-align: center;
+}
+#background1 button , #background2 button , #background3 button{
+    border: 1px solid;
+    background-color: transparent;
+    color: white;
+    margin-left: 30%;
+    margin-top: 15%;
+    font-weight: 600;
+}
+#background1 button:hover , #background2 button:hover , #background3 button:hover{
+    background-color: rgb(168, 124, 124);
+    border: 1px solid rgb(168, 124, 124);
+}
+#section3{
+    margin-top: 8%;
+}
+#section3 h3{
+    text-align: center;
+}
+#section3 .container{
+    margin-top: 50px;
+    margin-left: 12%;
+}
+#section3 button{
+    background-color: rgb(168, 124, 124);
+    border: 2px solid rgb(168, 124, 124);
+    color: white;
+    width: 20%;
+    padding: 5px;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+#section3 button:hover{
+    background-color: white;
+    color: rgb(168, 124, 124);
+}
+#section3 h5{
+    font-family: Bradley Hand, cursive;
+}
+#section4{
+    margin-top: 10%;
+}
+
+.image-title{
+    background-image: url(./food/food5.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    padding: 26.8%;
+    position: relative;
+}
+.image-title-bg{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 0;
+    left: 0;
+    background-color: rgb(0 , 0 , 0);
+    opacity: 0;
+    z-index: 5rem;
+    transition: all .5s;
+}
+.image-title-bg:hover{
+    opacity: 0.7;
+    transition: all .5s;
+}
+.image-title-word{
+    position: absolute;
+    z-index: 1000;
+    top: 45%;
+    left: 30%;
+    font-size: 1rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+#div7 , #div8{
+    display: flex;
+}
+#div8{
+    margin-top: -26.8%;
+}
+#img4{
+    width:25%;
+    height: 25%;
+}
+#img5{
+    width:25%;
+    height: 362px;
+    object-fit: cover;
+    margin-left: -26.8%;
+}
+#img6{
+    width:25%;
+    height: 362px;
+}
+#img7{
+    width:25%;
+    height: 25%;
+}
+#img8{
+    width:26.8%;
+    height: 505px;
+    object-fit: cover;
+}
+#img9{
+    width:24%;
+    height: 505px;
+    object-fit: cover;
+}
+#section4 button{
+    border: 2px solid black;
+    background-color: transparent;
+    width: 115%;
+    height: 40px;
+    margin-top: 150%;
+    margin-left: 50%;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+#section4 button:hover{
+    background-color: rgb(168, 124, 124);
+    color: white;
+    border: rgb(168, 124, 124);
+}
+#section5{
+    background-image: url(./map.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+    padding: 5%;
+}
+.div11{
+    background-color: rgb(248, 248, 248);
+    border-radius: 5px;
+    width: 40%;
+    padding: 40px;
+    margin-left: 30%;
+    margin-top: 25px;
+}
+#h41{
+    color: black;
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 20px;
+}
+#h42{
+    color: black;
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 40px;
+}
+#hr3{
+    color: black;
+    opacity: 0.6;
+    width: 40%;
+    padding: 1px;
+    margin-left: 30%;
+    margin-top: -5px;
+}
+#hr4{
+    color: black;
+    opacity: 0.6;
+    width: 35%;
+    padding: 1px;
+    margin-left: 32%;
+    margin-top: -5px;
+}
+#p4{
+    text-align: center;
+    margin-top: 10px;
+    opacity: 0.9;
+}
+#p5{
+    text-align: center;
+    opacity: 0.9;
+}
+footer{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    text-align: center;
+}
+footer h4{
+    font-family: Gill Sans, sans-serif;
+    padding-top: 3%;
+    letter-spacing: 2px;
+}
+footer hr{
+    color: white;
+    opacity: 0.6;
+    width: 15%;
+    padding: 1px;
+    margin-left: 42.5%;
+}
+footer p{
+    opacity: 0.6;
+    padding-top: 20px;
+}
+footer h5{
+    font-family: Gill Sans, sans-serif;
+    margin-top: 50px;
+    letter-spacing: 2px;
+}
+footer input{
+    width: 20%;
+    padding: 5px;
+    margin-top: 20px;
+}
+.bi-envelope-fill{
+    background-color: rgb(168, 124, 124);
+    color: white;
+    padding: 8.3px;
+    padding-top: 7.5px;
+    padding-bottom: 8.9px;
+    margin-left: -5px;
+}
+.bi-envelope-fill:hover{
+    color: rgb(168, 124, 124);
+    background-color: transparent;
+}
+.div13{
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+.div13 i{
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 8px;
+    color: white;
+}
+.div13 i:hover{
+    color: rgb(168, 124, 124);
+    border: 1px solid rgb(168, 124, 124);
+}

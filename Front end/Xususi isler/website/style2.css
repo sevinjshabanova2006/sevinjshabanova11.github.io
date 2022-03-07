@@ -1,0 +1,539 @@
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+body{
+    background-color: rgb(51, 51, 51) !important;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: rgb(51, 51, 51);
+    min-width: 20%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: -37%;
+    color: white;
+    margin-left: 30%;
+}
+.dropdown-content1{
+    display: none;
+    position: absolute;
+    background-color: rgb(51, 51, 51);
+    min-width: 20%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: -80%;
+    color: white;
+    margin-left: 40%;
+}
+.dropdown-content2{
+    display: none;
+    position: absolute;
+    background-color: rgb(51, 51, 51);
+    min-width: 20%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: -50%;
+    color: white;
+    margin-left: 30%;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropdown-content1{
+    display: block;
+}
+.dropdown:hover .dropdown-content2{
+    display: block;
+}
+.desc{
+    padding: 20px;
+    text-align: center;
+}  
+.desc1{
+    padding: 20px;
+    text-align: center;
+}  
+.desc2{
+    padding: 20px;
+    text-align: center;
+}  
+.desc p{
+    margin-top: -30%;
+    color: white;
+    text-align: center;
+    margin-left: 40%;
+    font-size: 20px;
+}
+.desc1 p{
+    margin-top: -70%;
+    color: white;
+    text-align: center;
+    margin-left: 50%;
+    font-size: 20px;
+}
+.desc2 p{
+    margin-top: -38%;
+    color: white;
+    text-align: center;
+    margin-left: 40%;
+    font-size: 20px;
+}
+#img1{
+    object-fit: cover;
+    width: 65% !important;
+    height: 65%;
+    margin-left: 60%;
+}
+#img2{
+    object-fit: cover;
+    width: 65% !important;
+    height: 25%;
+    margin-left: 90%;
+}
+#img3{
+    object-fit: cover;
+    width: 75% !important;
+    height: 65%;
+    margin-left: 70%;
+}
+#img4{
+    object-fit: cover;
+    width: 65% !important;
+    height: 65%;
+    margin-left: 80%;
+}
+#img5{
+    object-fit: cover;
+    width: 65% !important;
+    height: 65%;
+    margin-left: 60%;
+}
+#img6{
+    object-fit: cover;
+    width: 75% !important;
+    height: 75%;
+    margin-left: 70%;
+}
+#img7{
+    object-fit: cover;
+    width: 65% !important;
+    height: 65%;
+    margin-left: 60%;
+}
+#img8{
+    object-fit: cover;
+    width: 65% !important;
+    height: 65%;
+    margin-left: 60%;
+}
+#img9{
+    object-fit: cover;
+    width: 65% !important;
+    height: 65%;
+    margin-left: 60%;
+}
+#img10{
+    object-fit: cover;
+    width: 65% !important;
+    height: 65%;
+    margin-left: 70%;
+}
+#section1 h2{
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 48px;
+    padding-top: 20px;
+    margin-top: 3px;
+}
+#div1{
+    background-color: #97a5b6;
+    height: 100px;
+}
+.carousel{
+    margin-top: 40px;
+}
+.carousel-control-prev{
+    margin-top: 10%;
+}
+.carousel-control-next{
+    margin-top: 10%;
+}
+#section2{
+    margin-top: 15%;
+}
+#section2 h2{
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 48px;
+    padding-top: 20px;
+}
+#div2{
+    background-color: rgb(168, 124, 124);
+    height: 100px;
+}
+.div2 , .div3{
+    margin-top: 3%;
+}
+#img11 , #img12 , #img16{
+    object-fit: cover;
+    width: 20% !important;
+    height: 20% !important;
+}
+#img13{
+    object-fit: cover;
+    width: 20% !important;
+    height: 25% !important;
+}
+#img14{
+    object-fit: cover;
+    width: 20% !important;
+    height: 405px !important;
+}
+#img15{
+    object-fit: cover;
+    width: 18% !important;
+    height: 405px !important;
+}
+#img17 , #img18 , #img19{
+    object-fit: cover;
+    width: 20% !important;
+    height: 380px !important;
+}
+#img20{
+    object-fit: cover;
+    width:18% !important;
+    height: 380px !important;
+}
+#section3{
+    margin-top: 10%;
+}
+#section3 h2{
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 48px;
+    padding-top: 20px;
+}
+#div3{
+    background-color: rgb(195, 184, 84);
+    height: 100px;
+}
+.div4 , .div5{
+    margin-top: 3%;
+}
+#img21 , #img22{
+    object-fit: cover;
+    width: 20% !important;
+    height: 20% !important;
+}
+#img23 , #img24{
+    object-fit: cover;
+    width: 20% !important;
+    height: 405px !important;
+}
+#img25{
+    object-fit: cover;
+    width: 18% !important;
+    height: 405px !important;
+}
+#img26{
+    object-fit: cover;
+    width: 20% !important;
+    height: 380px !important;
+}
+#img27 , #img28 , #img29{
+    object-fit: cover;
+    width: 20% !important;
+    height: 380px !important;
+}
+#img30{
+    object-fit: cover;
+    width:18% !important;
+    height: 380px !important;
+}
+#section4{
+    margin-top: 10%;
+}
+#section4 h2{
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 48px;
+    padding-top: 20px;
+}
+#div4{
+    background-color: rgb(179, 138, 174);
+    height: 100px;
+}
+.div6 , .div7{
+    margin-top: 3%;
+}
+#img31 , #img32 , #img33 , #img34{
+    object-fit: cover;
+    width: 20% !important;
+    height: 405px !important;
+}
+#img35{
+    object-fit: cover;
+    width: 18% !important;
+    height: 405px !important;
+}
+#img36 , #img37 , #img38 , #img39{
+    object-fit: cover;
+    width: 20% !important;
+    height: 380px !important;
+}
+#img40{
+    object-fit: cover;
+    width:18% !important;
+    height: 380px !important;
+}
+#section5{
+    margin-top: 10%;
+}
+#section5 h2{
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 48px;
+    padding-top: 20px;
+}
+#div5{
+    background-color: rgb(212, 103, 103);
+    height: 100px;
+}
+.div8 , .div9{
+    margin-top: 3%;
+}
+#img41 , #img42 , #img43 , #img44{
+    object-fit: cover;
+    width: 20% !important;
+    height: 405px !important;
+}
+#img45{
+    object-fit: cover;
+    width: 18% !important;
+    height: 405px !important;
+}
+#img46 , #img47 , #img48 , #img49{
+    object-fit: cover;
+    width: 20% !important;
+    height: 380px !important;
+}
+#img50{
+    object-fit: cover;
+    width:18% !important;
+    height: 380px !important;
+}
+#section6{
+    margin-top: 10%;
+}
+#section6 h2{
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 48px;
+    padding-top: 20px;
+}
+#div6{
+    background-color: burlywood;
+    height: 100px;
+}
+.div10 , .div11{
+    margin-top: 3%;
+}
+#img51 , #img52 , #img53 , #img54{
+    object-fit: cover;
+    width: 20% !important;
+    height: 405px !important;
+}
+#img55{
+    object-fit: cover;
+    width: 18% !important;
+    height: 405px !important;
+}
+#img56 , #img57 , #img58 , #img59{
+    object-fit: cover;
+    width: 20% !important;
+    height: 380px !important;
+}
+#img60{
+    object-fit: cover;
+    width:18% !important;
+    height: 380px !important;
+}
+#section7{
+    margin-top: 10%;
+}
+#section7 h2{
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 48px;
+    padding-top: 20px;
+}
+#div7{
+    background-color: rgb(123, 241, 112);
+    height: 100px;
+}
+.div12 , .div13{
+    margin-top: 3%;
+}
+#img61 , #img62 , #img63 , #img64{
+    object-fit: cover;
+    width: 20% !important;
+    height: 405px !important;
+}
+#img65{
+    object-fit: cover;
+    width: 18% !important;
+    height: 405px !important;
+}
+#img66 , #img67 , #img68 , #img69{
+    object-fit: cover;
+    width: 20% !important;
+    height: 380px !important;
+}
+#img70{
+    object-fit: cover;
+    width:18% !important;
+    height: 380px !important;
+}
+#section8{
+    margin-top: 10%;
+}
+#section8 h2{
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 48px;
+    padding-top: 20px;
+}
+#div8{
+    background-color: rgb(34, 90, 82);
+    height: 100px;
+}
+.div14 , .div15{
+    margin-top: 3%;
+}
+#img71{
+    object-fit: cover;
+    width: 20% !important;
+    height: 405px !important;
+}
+#img72{
+    object-fit: cover;
+    width: 20% !important;
+    height: 405px !important;
+}
+#img73{
+    object-fit: cover;
+    width: 20% !important;
+    height: 405px !important;
+}
+#img74{
+    object-fit: cover;
+    width: 20% !important;
+    height: 405px !important;
+}
+#img75{
+    object-fit: cover;
+    width: 18% !important;
+    height: 405px !important;
+}
+#img76{
+    object-fit: cover;
+    width: 20% !important;
+    height: 380px !important;
+}
+#img77{
+    object-fit: cover;
+    width: 20% !important;
+    height: 380px !important;
+}
+#img78{
+    object-fit: cover;
+    width:20% !important;
+    height: 380px!important;
+}
+#img79{
+    object-fit: cover;
+    width: 20% !important;
+    height: 380px !important;
+}
+#img80{
+    object-fit: cover;
+    width:18% !important;
+    height: 380px !important;
+}
+#section9{
+    margin-top: 10%;
+}
+#section9 h2{
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 48px;
+    padding-top: 20px;
+}
+#div9{
+    background-color: rgb(109, 15, 15);
+    height: 100px;
+}
+.div16 , .div17{
+    margin-top: 3%;
+}
+#img81{
+    object-fit: cover;
+    width: 20% !important;
+    height: 405px !important;
+}
+#img82{
+    object-fit: cover;
+    width: 20% !important;
+    height: 405px !important;
+}
+#img83{
+    object-fit: cover;
+    width: 20% !important;
+    height: 405px !important;
+}
+#img84{
+    object-fit: cover;
+    width: 20% !important;
+    height: 405px !important;
+}
+#img85{
+    object-fit: cover;
+    width: 18% !important;
+    height: 405px !important;
+}
+#img86{
+    object-fit: cover;
+    width: 20% !important;
+    height: 380px !important;
+}
+#img87{
+    object-fit: cover;
+    width: 20% !important;
+    height: 380px !important;
+}
+#img88{
+    object-fit: cover;
+    width:20% !important;
+    height: 380px!important;
+}
+#img89{
+    object-fit: cover;
+    width: 20% !important;
+    height: 380px !important;
+}
+#img90{
+    object-fit: cover;
+    width:18% !important;
+    height: 380px !important;
+}

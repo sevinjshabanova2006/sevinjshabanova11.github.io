@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+:root{
+    --yasil:#32908f;
+    --ag:rgb(216, 211, 211);
+    --boz: rgb(221, 218, 218);
+}
+@font-face {
+    font-family: "bloody";
+    src: url("./fonts/bloody-impact/Bloody_Impact.ttf");
+}
+body{
+    background-image: url("./img/bg-6.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background: transparent;
+    width: 100%;
+    z-index: 1000;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+header .logo{
+    font-family: "bloody";
+    color: var(--yasil);
+    font-weight: 700;
+    z-index: 1000;
+}
+.menu{
+    display: inline-block;
+    margin-left: auto;
+}
+.menu li{
+    display: inline-block;
+    padding: 40px;
+}
+.menu li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.section1 p{
+    color: white;
+    padding-top: 20%;
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#section2{
+    background-color: var(--ag);
+    text-align: center;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#servicestitle{
+    font-size: 40px;
+    text-align: center;
+}
+.icon{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid rgb(163 , 163 ,163);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.icon img{
+    width: 4rem;
+}
+#portfolio{
+    background-color: var(--boz);
+    padding: 5rem 0;
+    margin-top: 50px;
+}
+#portfolio-item{
+    box-shadow: 0 5px 10px -5px rgba(116, 114, 114, 0.63);
+    background-image: url("./img/portfolio.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 30px;
+    position: relative;
+    height: 30rem;
+    margin: 2rem;
+    margin-bottom: 2rem;
+}
+#portfolio h1{
+    text-align: center;
+}
+.portfolio-item-bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(0 , 0 , 0);
+    opacity: 0;
+    z-index: 5rem;
+    transition: all .5s;
+}
+.portfolio-item-bg:hover{
+    opacity: 0.7;
+    transition: all .5s;
+}
+.portfolio-zoom{
+    position: absolute;
+    z-index: 1000;
+    top: 50%;
+    left: 50%;
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--yasil);
+    transform: translate(-50% , -50%);
+}
+#about{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+#about-h2{
+    font-weight: 700;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+#about-img{
+    width: 100%;
+    height: 100%;
+}
+#about-lorem{
+    margin-top: 50px;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 22px;
+}
+#contact{
+    background-color: var(--yasil);
+    color: white;
+    padding: 5rem 0;
+    text-align: center;
+}
+#contact-title{
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 3rem 0;
+}
+.contact-detail{
+    font-size: 1.5rem;
+    padding: 5px 0;
+}
+.social-id{
+    list-style: none;
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    font-size: 30px;
+}

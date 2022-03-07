@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(44, 7, 7);
+    height: 550px;
+}
+header nav{
+    padding-top: 60px;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+#ul{
+    float: right;
+    margin-top: 10px;
+}
+#ul li{
+    display: inline;
+    list-style: none;
+}
+#ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 40px;
+    
+}
+#h3{
+    color: white;
+    padding-left: 60px;
+}
+#h5{
+    padding-left: 60px;
+    padding-bottom: 30px;
+    color: white;
+}
+#h1{
+    color: white;
+}
+.p1{
+    display: block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+.p2{
+    display: block;
+    padding-top: 110px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+#h6{
+    padding-top: 10px;
+    color: white;
+}
+#button{
+    margin-top: 15px;
+    background-color: rgb(25, 245, 161);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 13%;
+    height: 30px;
+    border-style: none;
+    color: white;
+}
+#center{
+    text-align: center;
+}
+#button1{
+    margin-top: 15px;
+    background-color: rgb(25, 245, 161);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 13%;
+    height: 30px;
+    border-style: none;
+    color: white;
+}
+.div1{
+    display: flex;
+    background-color: rgb(180, 20, 20);
+    height: 800px;
+    width: 1350px;
+}
+.div{
+    width: 8%;
+    height: 45%;
+    padding-left: 100px;
+    background-color: white;
+    margin: 30px;
+    padding-right: 20px;
+    margin-left: 80px;
+}
+.div2{
+    width: 8%;
+    height: 45%;
+    padding-left: 100px;
+    background-color: rgb(25 , 245 , 161);
+    margin: 30px;
+    padding-right: 20px;
+    margin-left: 50px;
+}
+#px{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(41, 39, 39);
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+}
+#px1{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    color: black;
+    margin-top: 30px;
+    text-align: center;
+}
+#seva{
+    text-align: center;
+    margin-right: 30px;
+}
+#seva1{
+    text-align: center;
+}
+
